@@ -1,41 +1,46 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Playfair Display", serif;
     background-color: yellow;
+    margin: 0;
 }
 
 header {
     margin: 0;
     font-size: 12pt;
     padding: 1rem;
+    display: flex;
+    border-bottom: 5px solid black;
+    justify-content: space-between;
 }
 
-nav {
-    max-width: 100%;
-    height: 30px;
-    margin: auto;
-    margin-top: 8px;
-    justify-content: space-around;
-    
-}
+
 
 nav ul {
    
     margin:0;
     padding: 10px 0;
     display:flex;
-    justify-content:space-around;
+    justify-content:right;
     gap: 60px;
-    background-color: black;
+   list-style-type: none;
     
 }
 
+.style {
+    color: white;
+    font-weight: bold;
+    background: black;
+    padding: 12px 16px;
+    
+    }
+
 nav a {
-    color: yellow;
+    
     text-decoration: none;
-    text-transform:lowercase;
-    font-weight:lighter;
-    font-size: 20px;
+    text-transform:uppercase;
+    
 }
+
 
 .text a h2 {
     color: black;
@@ -98,19 +103,23 @@ main {
 
 
 
-
 footer{
     margin-top: 60px;
     display: flex;
-    justify-content: space-around;
-    color: white;
+    justify-content:left;
+    gap: 60px;
     padding: 20px 20;
-    font-size: 12pt;
+    font-size: 10pt;
     background-color: black;
-   
+    
+    
 }
 
+
+
 footer p {
-text-align: center;
-font-size: pt;
+text-align:left;
+font-size: 10pt;
+text-decoration: none;
+color: white;
 }
